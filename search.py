@@ -11,8 +11,8 @@ def search(put, box_file):
 
 #print(f'{box_file_put1}\n{box_file_put2}')
 def func():
-    box_file_put1 =  search('/home/gordey/alexander', [])   
-    box_file_put2 = search('/home/gordey/Back2', [])
+    box_file_put1 =  search('path/to/file', [])   
+    box_file_put2 = search('/path/to/file2', [])
     for i in range(-1,len(box_file_put1)-1):
         for a in range(-1,len(box_file_put2)-1):
             
